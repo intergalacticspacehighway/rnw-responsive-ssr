@@ -10,7 +10,7 @@ export default function App() {
     },
     query: [
       {
-        minWidth: 1024,
+        minWidth: 800,
         style: {
           backgroundColor: "yellow",
           height: 400,
@@ -26,7 +26,7 @@ export default function App() {
     },
     query: [
       {
-        minWidth: 1024,
+        minWidth: 800,
         style: {
           color: "black",
         },
@@ -37,7 +37,7 @@ export default function App() {
   return (
     <View dataSet={dataSet} style={styles}>
       <Text dataSet={textDataSet} style={textStyles}>
-        This box will appear white when screen width less than 1024
+        This box will turn black when screen width is less than 800px
       </Text>
     </View>
   );
