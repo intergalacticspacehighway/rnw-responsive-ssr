@@ -1,22 +1,44 @@
-// @generated: @expo/next-adapter@2.1.52
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Text } from "react-native";
+import { useResponsiveQuery } from "react-native-responsive-query";
 
 export default function App() {
+  const { styles, dataSet } = useResponsiveQuery({
+    initial: {
+      backgroundColor: "black",
+      height: 200,
+      width: 200,
+    },
+    query: [
+      {
+        minWidth: 1024,
+        style: {
+          backgroundColor: "yellow",
+          height: 400,
+          width: 400,
+        },
+      },
+    ],
+  });
+
+  const { styles: textStyles, dataSet: textDataSet } = useResponsiveQuery({
+    initial: {
+      color: "white",
+    },
+    query: [
+      {
+        minWidth: 1024,
+        style: {
+          color: "black",
+        },
+      },
+    ],
+  });
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
+    <View dataSet={dataSet} style={styles}>
+      <Text dataSet={textDataSet} style={textStyles}>
+        This box will appear white when screen width less than 1024
+      </Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 16,
-  },
-});
