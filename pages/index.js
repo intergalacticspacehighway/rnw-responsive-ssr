@@ -20,7 +20,7 @@ export default function Home() {
       {
         minWidth: 800,
         style: {
-          backgroundColor: "black",
+          backgroundColor: "green",
         },
       },
       {

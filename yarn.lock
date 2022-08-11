@@ -1589,10 +1589,10 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-responsive-query@0.2.3-canary.1:
-  version "0.2.3-canary.1"
-  resolved "https://registry.yarnpkg.com/react-native-responsive-query/-/react-native-responsive-query-0.2.3-canary.1.tgz#ef1660d091b64d9649e016d46e2c4636ce068395"
-  integrity sha512-ts5P5W/DC3V5MCc+EWP1K4GlNlZzM9WUQYWEs3Kakndy6/WrlDdxglpTQ1XEY7yNbQIiA12e/Rmn4npodiLjsA==
+react-native-responsive-query@0.2.3-canary.3:
+  version "0.2.3-canary.3"
+  resolved "https://registry.yarnpkg.com/react-native-responsive-query/-/react-native-responsive-query-0.2.3-canary.3.tgz#a7d9684d3f016c8c03849b88c01486db35bbf60a"
+  integrity sha512-1XyWvsrrgw19PKI9ke1h6eMNKDDRDnsDMVASaUE2i+8Y/Bi0D8T32lWI/MAhpF94tjosYGieKX0lhfgR//otdA==
   dependencies:
     react-native-web "^0.18.7"
     stable-hash "^0.0.2"
