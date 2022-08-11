@@ -18,9 +18,13 @@ export default class MyDocument extends Document {
     const { getStyleElement } = AppRegistry.getApplication(config.name);
     const page = await renderPage();
     const styles = [
-      <style dangerouslySetInnerHTML={{ __html: normalizeNextElements }} />,
+      <style
+        key="1"
+        dangerouslySetInnerHTML={{ __html: normalizeNextElements }}
+      />,
       getStyleElement(),
       <style
+        key="2"
         type="text/css"
         dangerouslySetInnerHTML={{ __html: getTextContent() }}
       />,
