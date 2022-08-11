@@ -5,10 +5,10 @@ import { useResponsiveQuery } from "react-native-responsive-query";
 
 export default function Home() {
   const { styles } = useResponsiveQuery({
-    initial: { height: 100, width: 100 },
+    initial: { height: 300, width: 300 },
     query: [
       {
-        minWidth: 100,
+        minWidth: 0,
         style: {
           backgroundColor: "pink",
         },
@@ -23,6 +23,12 @@ export default function Home() {
         minWidth: 800,
         style: {
           backgroundColor: "black",
+        },
+      },
+      {
+        minWidth: 1250,
+        style: {
+          backgroundColor: "yellow",
         },
       },
     ],
