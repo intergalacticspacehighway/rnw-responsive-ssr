@@ -10,11 +10,18 @@
   },
   "dependencies": {
     "next": "12.2.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-native-responsive-query": "0.2.3-canary.0",
+    "react-native-web": "^0.18.7"
   },
   "devDependencies": {
+    "@types/node": "^18.7.1",
+    "@types/react": "^18.0.17",
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4"
+    "eslint-config-next": "12.2.4",
+    "typescript": "^4.7.4"
   }
 }
