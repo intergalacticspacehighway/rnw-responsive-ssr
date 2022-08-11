@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import { View } from "react-native";
 import { useResponsiveQuery } from "react-native-responsive-query";
 

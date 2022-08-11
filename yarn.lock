@@ -435,13 +435,6 @@ css-in-js-utils@^2.0.0:
     hyphenate-style-name "^1.0.2"
     isobject "^3.0.1"
 
-css-in-js-utils@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-3.1.0.tgz#640ae6a33646d401fc720c54fc61c42cd76ae2bb"
-  integrity sha512-fJAcud6B3rRu+KHYk+Bwf+WFL2MDCJJ1XG9x137tJQ0xYxor7XziQtuGFbWNdqrvF4Tk26O3H73nfVqXt/fW1A==
-  dependencies:
-    hyphenate-style-name "^1.0.3"
-
 csstype@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
@@ -1026,7 +1019,7 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
+hyphenate-style-name@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
   integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
@@ -1596,10 +1589,10 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-responsive-query@0.2.3-canary.0:
-  version "0.2.3-canary.0"
-  resolved "https://registry.yarnpkg.com/react-native-responsive-query/-/react-native-responsive-query-0.2.3-canary.0.tgz#05d21dd5b768a2997950e847126d4bf3acb8b75c"
-  integrity sha512-sph3GAb6VlfuWQD1AqxYA1OjhaIpxGS2J4XmMtHht2rTporj9eifkE7aWdVvpEJAaYKb/h9jcbFmskM24u9ShA==
+react-native-responsive-query@0.2.3-canary.1:
+  version "0.2.3-canary.1"
+  resolved "https://registry.yarnpkg.com/react-native-responsive-query/-/react-native-responsive-query-0.2.3-canary.1.tgz#ef1660d091b64d9649e016d46e2c4636ce068395"
+  integrity sha512-ts5P5W/DC3V5MCc+EWP1K4GlNlZzM9WUQYWEs3Kakndy6/WrlDdxglpTQ1XEY7yNbQIiA12e/Rmn4npodiLjsA==
   dependencies:
     react-native-web "^0.18.7"
     stable-hash "^0.0.2"

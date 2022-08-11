@@ -1,7 +1,7 @@
 import { Children } from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { AppRegistry } from "react-native";
-import { getTextContent } from "react-native-responsive-query";
+import { getStyleElement as getResponsiveQueryStyleElement } from "react-native-responsive-query";
 import config from "../app.json";
 // Force Next-generated DOM elements to fill their parent's height
 const normalizeNextElements = `
@@ -23,11 +23,7 @@ export default class MyDocument extends Document {
         dangerouslySetInnerHTML={{ __html: normalizeNextElements }}
       />,
       getStyleElement(),
-      <style
-        key="2"
-        type="text/css"
-        dangerouslySetInnerHTML={{ __html: getTextContent() }}
-      />,
+      getResponsiveQueryStyleElement(),
     ];
     return { ...page, styles: Children.toArray(styles) };
   }
